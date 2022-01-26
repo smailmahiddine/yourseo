@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul.navbar{
+    list-style-type: none;
+}
+main{
+    height: calc(100vh - 140px);
+}
+/* navbar*/
+.navbar{
+    background: rgb(112, 175, 208);
+    height: 72px;
+}
+.seo{
+    height: 72px;
+    width: 120px;
+    -moz-border-radius:10px 0;
+    -webkit-border-radius:10px 0;
+    border-radius:10px 0;
+}
+.nav-link, .btn1 {
+    color: #004dc9;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: rgb(209, 125, 56);
+}
+.btn1{
+    background-color:  rgb(112, 175, 208);
+    border-color:  rgb(112, 175, 208);
+}
+.btn1:hover{
+    color: rgb(209, 125, 56);
+}
+
+/* animaton*/
+
+.main1 p{
+    font-size:  30px;
+    font-weight: 700;
+    color: #063861;
+    background-color:rgba(112, 175, 208, 0.8);
+    border: 3px solid;
+    border-radius: 60px 60px;
+    width: 60%;
+    margin: 7% 25%;
+    height: 20%;
+    padding-top: 2%;
+}
+.carousel{
+    width: 100%;
+    margin: 0 auto;
+}
+.carousel1{
+    background-image: url('../images/carousel11.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.carousel2{
+    background-image: url('../images/carousel2.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.carousel3{
+    background-image: url('../images/carousel3.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.carousel4{
+    background-image: url('../images/carousel4.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.carousel1 p{
+    margin-left: 18%;
+}
+.carousel-item{
+    height: 450px;
+    width: 100%;
+}
+/* A propos */
+.a_propos{
+   background-color:rgba(167, 190, 202, 0.8);
+}
+
+
+/* nos demarches */
+.services{
+    background-color:rgba(112, 175, 208, 0.5);
+}
+
+.card1{
+    border-radius: 60px / 40px;
+    background-color: rgb(112, 175, 208);
+    height: auto;
+}
+
+.circle{
+    background-color: rgb(250, 250, 250);
+    color: black;
+    padding: 3px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.card1:hover .circle{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+/*section contact*/
+.btn3{
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none; 
+    background-color:rgb(112, 175, 208);;
+    border-radius: 6px;
+}
+.btn3:hover{
+   background-color: black;
+    color: white;
+    transition: 0.5s; 
+}
+/*footer*/
+footer{
+    background-color: rgb(112, 175, 208);
+    color: black;
+    height: 66px;
+
+}
+.medias{
+    color: black;
+    font-size: 40px;
+    padding-right: 15px;
+}
+.medias:hover{
+    color: blue;
+    
+}
+
+form label{
+    font: 20px bold;
+    text-decoration: underline;
+}
+/* page Admin */
+.adminusers, .adminarticles, .messages_recus, .adminImages{
+    border: 2px solid black;
+    margin: 5% auto;
+    width: auto;
+
+}
+.adminusers  th{
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(112, 175, 208);;
+}
+.adminusers  td{
+    border: 0.5px solid black;
+    text-align: center;
+    padding: 5px;
+}
+.adminarticles th{
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(112, 175, 208);;
+}
+.adminarticles td{
+    border: 0.5px solid black;
+    text-align: center;
+    padding: 5px;
+}
+.messages_recus th{
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(112, 175, 208);;
+}
+.messages_recus td{
+    border: 0.5px solid black;
+    text-align: center;
+    padding: 5px;
+}
+.adminImages td{
+    border: 0.5px solid black;
+    text-align: center;
+    padding: 5px;
+}
+.adminImages th{
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(112, 175, 208);;
+}
+/*page articles*/
+
+.imgarticle1 img{
+    width: 350px;
+    height: 200px;
+}
+.imgarticle1{
+    background-color: antiquewhite;
+}
+
+.cntnetArtcle2{
+    text-align: justify;
+}
+.plusDeText{
+    display: none;
+}
+.text.lire-la-suite .plusDeText{
+    display: inline;
+}
+.text.lire-la-suite .points{
+    display: none;
+}
+.btn5{
+    border: none;
+    color:rgba(112, 175, 208, 0.8);
+    background-color: white;
+}
+
+.article1{
+    text-align: center;
+    background-color: rgb(153, 140, 122);
+}
+.article2{
+    text-align: center;
+    background-color: rgb(230, 227, 224);
+}
